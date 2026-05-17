@@ -1,0 +1,13 @@
+{
+  "name": "fun-discord-bot",
+  "version": "1.0.0",
+  "description": "A fun bot with games, 8ball, and meme commands",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "dotenv": "^16.3.0"
+  }
+}
