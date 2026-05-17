@@ -1,4 +1,22 @@
-# 🤖 Discord Bot Templates
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║    ██████╗ ██╗███████╗ ██████╗ ██████╗ ██████╗ ██████╗                      ║
+║    ██╔══██╗██║██╔════╝██╔════╝██╔═══██╗██╔══██╗██╔══██╗                     ║
+║    ██║  ██║██║███████╗██║     ██║   ██║██████╔╝██████╔╝                     ║
+║    ██║  ██║██║╚════██║██║     ██║   ██║██╔══██╗██╔══██╗                     ║
+║    ██████╔╝██║███████║╚██████╗╚██████╔╝██████╔╝██████╔╝                     ║
+║    ╚═════╝ ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═════╝ ╚═════╝                      ║
+║                                                                              ║
+║    ████████╗███████╗███╗   ███╗██████╗ ██╗      █████╗ ████████╗███████╗    ║
+║    ╚══██╔══╝██╔════╝████╗ ████║██╔══██╗██║     ██╔══██╗╚══██╔══╝██╔════╝    ║
+║       ██║   █████╗  ██╔████╔██║██████╔╝██║     ███████║   ██║   █████╗      ║
+║       ██║   ██╔══╝  ██║╚██╔╝██║██╔═══╝ ██║     ██╔══██║   ██║   ██╔══╝      ║
+║       ██║   ███████╗██║ ╚═╝ ██║██║     ███████╗██║  ██║   ██║   ███████╗    ║
+║       ╚═╝   ╚══════╝╚═╝     ╚═╝╚═╝     ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝    ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
 
 > **6 ready-to-run Discord bot templates** for beginners. Pick one, add your token, and your bot is live in minutes. No experience needed.
 
@@ -17,37 +35,46 @@
 
 ---
 
-## 🚀 Beginner's Guide
+```
+╔════════════════════════════════════════════════════════════════════╗
+║                        🚀  BEGINNER'S GUIDE                      ║
+╚════════════════════════════════════════════════════════════════════╝
+```
 
 ### Step 1: Install Node.js
-Download from https://nodejs.org → install like any program.
-Check it worked: open terminal and type `node --version`
+```
+Download → https://nodejs.org
+Install like any program.
+Check: open terminal and type → node --version
+```
 
 ### Step 2: Create Your Bot
-1. Go to https://discord.com/developers/applications
-2. Click **New Application** → name it → **Create**
-3. Click **Bot** → **Add Bot** → **Yes, do it!**
-4. Click **Reset Token** → **Copy** (this is your bot's password — keep it secret!)
-5. Turn ON **Message Content Intent** (required for reading messages)
+```
+1. Go to → https://discord.com/developers/applications
+2. Click "New Application" → name it → "Create"
+3. Click "Bot" → "Add Bot" → "Yes, do it!"
+4. Click "Reset Token" → COPY IT (keep secret!)
+5. Turn ON "Message Content Intent" (required!)
+```
 
 ### Step 3: Invite Bot to Server
-1. Click **OAuth2** → **URL Generator**
-2. Check **bot** under Scopes
-3. Check permissions: Send Messages, Read Message History, and any mod perms you need
-4. Copy URL → open in browser → select server → **Authorize**
+```
+1. Click "OAuth2" → "URL Generator"
+2. Check "bot" under Scopes
+3. Pick permissions: Send Messages, Read Message History
+4. Copy URL → open in browser → pick server → Authorize
+```
 
 ### Step 4: Run a Template
 ```bash
-# Pick a template
+# Pick a template folder
 cd 04-level-bot
 
-# Install dependencies (one time)
+# Install dependencies (one time only)
 npm install
 
-# Create .env file
-# Rename .env.example to .env and paste your token inside
-
-# Start the bot!
+# Create .env file (rename .env.example → paste your token)
+# Then start the bot!
 npm start
 ```
 
